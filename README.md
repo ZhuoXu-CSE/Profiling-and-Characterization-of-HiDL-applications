@@ -1,6 +1,7 @@
 # Profiling-and-Characterization-of-HiDL-applications
 In this project, I utilized TAU, a performance analysis tool framework developed by University of Oregon to profile the MPI communication.
-(Link to Tau: http://www.cs.uoregon.edu/research/tau/home.php)
+(Link to Tau: http://www.cs.uoregon.edu/research/tau/home.php) 
+
 TAU provides a suite of stat- ic and dynamic tools that provide graphical user interaction and inter-operation to form an integrated analysis environment for parallel applications. The model that TAU uses to profile parallel, multi-threaded programs maintains performance data for each thread, context, and node in use by an application. The profiling instrumentation need- ed to implement the model captures data for C++ functions, methods, basic blocks, and statement execution at these levels.
 From the profile data collected, TAU's profile analysis procedures generated a wealth of performance information. It shows the exclusive and inclusive time spent in each function with nanosecond resolution. It also shows the breakup of time spent for each node. Other data includes how many times each function was called, how many
 profiled functions did each function invoke, and what the mean inclusive time per call was. Time information can also be displayed relative to nodes, contexts, and threads.
